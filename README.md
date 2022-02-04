@@ -8,3 +8,6 @@
 
 Игра: "Калькулятор". Пользователь должен посчитать результат вычисления двух случайных чисел.
 [![asciicast](https://asciinema.org/a/ppnOKAryyunkds8duDGOYrUmz.svg)](https://asciinema.org/a/ppnOKAryyunkds8duDGOYrUmz)
+
+Игра "НОД". Пользователь должен вычислить и ввести наибольший общий делитель двух случайных чисел.
+[![asciicast](https://asciinema.org/a/IODv0LrYTVzi7ojP78l4q4iMw.svg)](https://asciinema.org/a/IODv0LrYTVzi7ojP78l4q4iMw)
