@@ -5,3 +5,6 @@
 
 Игра: "Проверка на четность". Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 [![asciicast](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf.svg)](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf)
+
+Игра: "Калькулятор". Пользователь должен посчитать результат вычисления двух случайных чисел.
+[![asciicast](https://asciinema.org/a/ppnOKAryyunkds8duDGOYrUmz.svg)](https://asciinema.org/a/ppnOKAryyunkds8duDGOYrUmz)
