@@ -11,3 +11,6 @@
 
 Игра "НОД". Пользователь должен вычислить и ввести наибольший общий делитель двух случайных чисел.
 [![asciicast](https://asciinema.org/a/IODv0LrYTVzi7ojP78l4q4iMw.svg)](https://asciinema.org/a/IODv0LrYTVzi7ojP78l4q4iMw)
+
+Игра "Арифметическая прогрессия". Игроку показывается ряд чисел, образующий арифметическую прогрессию, одно число заменено двумя точками. Игрок должен определить это число.
+[![asciicast](https://asciinema.org/a/qx1FSrwbRv393mUWmYtI1Mwj6.svg)](https://asciinema.org/a/qx1FSrwbRv393mUWmYtI1Mwj6)
