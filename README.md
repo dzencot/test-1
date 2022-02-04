@@ -4,3 +4,5 @@
 ![example workflow](https://github.com/Nikolas888/frontend-project-lvl1/actions/workflows/test.yml/badge.svg)
 
 https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf
+Игра: "Проверка на четность". Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+[![asciicast](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf.svg)](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf)
