@@ -3,9 +3,9 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 ![example workflow](https://github.com/Nikolas888/frontend-project-lvl1/actions/workflows/test.yml/badge.svg)
 
-Setup
-make install
-npm link
+<h1>Setup</h1></br>
+make install</br>
+npm link</br>
 
 Игра: "Проверка на четность". Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 [![asciicast](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf.svg)](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf)
