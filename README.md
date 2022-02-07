@@ -14,3 +14,6 @@
 
 Игра "Арифметическая прогрессия". Игроку показывается ряд чисел, образующий арифметическую прогрессию, одно число заменено двумя точками. Игрок должен определить это число.
 [![asciicast](https://asciinema.org/a/nm8hLCm4XAsJSWsMWXdWNKEmK.svg)](https://asciinema.org/a/nm8hLCm4XAsJSWsMWXdWNKEmK)
+
+Игра "Простое ли число?" Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — в другом случае.
+[![asciicast](https://asciinema.org/a/d5p127NhZxjo71c4yJZtCZ9AD.svg)](https://asciinema.org/a/d5p127NhZxjo71c4yJZtCZ9AD)
