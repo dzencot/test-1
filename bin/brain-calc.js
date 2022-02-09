@@ -1,28 +1,26 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
-const getRandomFloat = () => {
+const getRandomFloat = () =>{
 
   const name = readlineSync.question('May I have your name? ');
-  console.log ('Hello ' + name + '!');
+  console.log('Hello ' + name + '!');
   console.log('');
-  let num3 = 1; //результат случайного вычисления случайных чисел
-  let n = 1; //раунды
-
+  let num3 = 1; //  результат случайного вычисления случайных чисел
+  let n = 1; // раунды
 
   while (n <= 3) {
+    const num = Math.floor(Math.random() * 30);
+    const num2 = Math.floor(Math.random() * 30);
+    const arr = [num + num2, num - num2, num * num2];
+    const rand = Math.floor(Math.random() * arr.length);
 
-     const num = Math.floor(Math.random() * 30);
-     const num2 = Math.floor(Math.random() * 30);
-     const arr = [num + num2, num - num2, num * num2];
-     const rand = Math.floor(Math.random() * arr.length);
+    const quest = () => {
 
-const quest = () => {
-
-  if (rand === 0){
-    console.log('Question: ' + num + ' + ' + num2);
-    num3 = num + num2;
-  }
+      if (rand === 0){
+        console.log('Question: ' + num + ' + ' + num2);
+        num3 = num + num2;
+      }
   else if (rand === 1){
     console.log('Question: ' + num + ' - ' + num2);
     num3 = num - num2;
