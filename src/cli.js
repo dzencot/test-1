@@ -5,7 +5,7 @@ const hello = () => {
   const hi = 'Hello';
   const space = ' ';
   const exclamation = '!';
-  console.log(hi + space + name + exclamation);
+  console.log(hi + space + name);
 };
 
 export default hello;
