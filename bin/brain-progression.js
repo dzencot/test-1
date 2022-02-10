@@ -76,12 +76,16 @@ const getRandomFloat = () => {
       n += 1;
     } else if (answer !== num3) {
       n += 4;
-      console.log('\'' + answer + '\' is wrong answer ;(. Correct answer was \'' + num4 + '\' . Let\'s try again, ' + name + '!');
+      const wrong = ' is wrong answer ;(. Correct answer was ';
+      const tryagain = ' . Let\'s try again, ';
+      const kov = "'";
+      console.log(kov + answer + kov + wrong + kov + num4 + kov + tryagain + name + ex);
     }
   }
 
   if (n === 4) {
-    console.log('Congratulations, ' + name + '!');
+    const congratulations = 'Congratulations, ';
+    console.log(congratulations + name + ex);
   }
 };
 
