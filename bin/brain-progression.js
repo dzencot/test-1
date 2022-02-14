@@ -18,18 +18,18 @@ const getRandomFloat = () => {
     const num3 = Math.floor(Math.random() * 9);
 
     const fn = (a, b) => {
+      const bb = b;
+      let aa = a;
       let i = 0;
       let str = '';
       while (i <= 9) {
         if (i !== num3) {
-          str = str + a + space;
-          a += b;
-          i += 1;
+          str = str + aa + space;
         } else if (i === num3) {
           str += '.. ';
-          a += b;
-          i += 1;
         }
+        aa += bb;
+        i += 1;
       }
       return str;
     };
@@ -71,7 +71,7 @@ const getRandomFloat = () => {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer == num4 && n <= 3) {
+    if (Number(answer) === num4 && n <= 3) {
       console.log('Correct!');
       n += 1;
     } else if (answer !== num3) {

@@ -31,7 +31,7 @@ const getRandomFloat = () => {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer == num3 && n <= 3) {
+    if (Number(answer) === num3 && n <= 3) {
       console.log('Correct!');
       n += 1;
     } else if (answer !== num3) {

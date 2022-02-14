@@ -43,7 +43,7 @@ const getRandomFloat = () => {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer == ans && n <= 3) {
+    if (answer === ans && n <= 3) {
       console.log('Correct!');
       n += 1;
     } else if (answer !== ans) {
@@ -58,7 +58,7 @@ const getRandomFloat = () => {
 };
 
 console.log('\nWelcome to the Brain Games!');
-console.log('What number is missing in the progression?');
+console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 console.log('');
 getRandomFloat();
 

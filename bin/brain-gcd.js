@@ -9,13 +9,15 @@ const getRandomFloat = () => {
   let n = 1; // раунды
 
   function nod(num, num2) {
-    if (num == 0) return num2;
-    while (num2 != 0) {
-      if (num > num2) {
-        num -= num2;
-      } else num2 -= num;
+    let a = num;
+    let b = num2;
+    if (a === 0) return b;
+    while (b !== 0) {
+      if (a > b) {
+        a -= b;
+      } else b -= a;
     }
-    return num;
+    return a;
   }
   // console.log(nod(5, 10));
 
@@ -34,7 +36,7 @@ const getRandomFloat = () => {
 
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer == num3 && n <= 3) {
+    if (Number(answer) === num3 && n <= 3) {
       console.log('Correct!');
       n += 1;
     } else if (answer !== num3) {

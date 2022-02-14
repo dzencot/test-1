@@ -14,13 +14,13 @@ const getRandomFloat = () => {
     console.log(`Question: ${num}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if (num % 2 == 0 && answer == 'yes' && n <= 3) {
+    if (num % 2 === 0 && answer === 'yes' && n <= 3) {
       console.log('Correct!');
       n += 1;
-    } else if (num % 2 !== 0 && answer == 'no' && n <= 3) {
+    } else if (num % 2 !== 0 && answer === 'no' && n <= 3) {
       console.log('Correct!');
       n += 1;
-    } else if (num % 2 == 0 && answer !== 'yes') {
+    } else if (num % 2 === 0 && answer !== 'yes') {
       n += 4;
       console.log(sory2);
     } else if (num % 2 !== 0 && answer !== 'no') {
