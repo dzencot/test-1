@@ -5,29 +5,29 @@ const getRandomFloat = () => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello ${name}!`);
   console.log('');
-  const num4 = 1; // результат
+  // const num4 = 1; // результат
   let n = 1; // раунды
 
   while (n <= 3) {
     const num = Math.floor(Math.random() * 30);
     let ans = '';
 
-    const prime = (num) => {
+    const prime = (a) => {
       let i = 2;
-      if (num === 2) {
+      if (a === 2) {
         ans = 'yes';
-        i += num;
-      } else if (num === 0 || num === 1) {
+        i += a;
+      } else if (a === 0 || a === 1) {
         ans = 'no';
-        i += num;
-      } else if (num > 2) {
-        while (i < num) {
-          if (num % i !== 0) {
+        i += a;
+      } else if (a > 2) {
+        while (i < a) {
+          if (a % i !== 0) {
             ans = 'yes';
             i += 1;
           } else {
             ans = 'no';
-            i += num;
+            i += a;
           }
         }
       }
