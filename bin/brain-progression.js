@@ -34,34 +34,34 @@ const getRandomFloat = () => {
       return str;
     };
 
-    const otvet = () => { // функция вычисляет результат num4
-      if (num3 === 0) {
-        num4 = num;
-      } else if (num3 === 1) {
-        num4 = num + num2;
-      } else if (num3 === 2) {
-        num4 = num + num2 + num2;
-      } else if (num3 === 3) {
-        num4 = num + num2 + num2 + num2;
-      } else if (num3 === 4) {
-        num4 = num + num2 + num2 + num2 + num2;
-      } else if (num3 === 5) {
-        num4 = num + num2 + num2 + num2 + num2 + num2;
-      } else if (num3 === 6) {
-        num4 = num + num2 + num2 + num2 + num2 + num2 + num2;
-      } else if (num3 === 7) {
-        num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2;
-      } else if (num3 === 8) {
-        num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
-      } else if (num3 === 9) {
-        num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
-      } else if (num3 === 10) {
-        num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
-      }
-      return num4;
-    };
+    // const otvet = () => { // функция вычисляет результат num4
+    if (num3 === 0) {
+      num4 = num;
+    } else if (num3 === 1) {
+      num4 = num + num2;
+    } else if (num3 === 2) {
+      num4 = num + num2 + num2;
+    } else if (num3 === 3) {
+      num4 = num + num2 + num2 + num2;
+    } else if (num3 === 4) {
+      num4 = num + num2 + num2 + num2 + num2;
+    } else if (num3 === 5) {
+      num4 = num + num2 + num2 + num2 + num2 + num2;
+    } else if (num3 === 6) {
+      num4 = num + num2 + num2 + num2 + num2 + num2 + num2;
+    } else if (num3 === 7) {
+      num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2;
+    } else if (num3 === 8) {
+      num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
+    } else if (num3 === 9) {
+      num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
+    } else if (num3 === 10) {
+      num4 = num + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2 + num2;
+    }
+    // return num4;
+    // };
 
-    otvet();
+    // otvet();
 
     const quest = () => {
       console.log(question + fn(num, num2));

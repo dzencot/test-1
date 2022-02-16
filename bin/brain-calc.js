@@ -14,20 +14,20 @@ const getRandomFloat = () => {
     const arr = [num + num2, num - num2, num * num2];
     const rand = Math.floor(Math.random() * arr.length);
 
-    const quest = () => {
-      if (rand === 0) {
-        console.log(`Question: ${num} + ${num2}`);
-        num3 = num + num2;
-      } else if (rand === 1) {
-        console.log(`Question: ${num} - ${num2}`);
-        num3 = num - num2;
-      } else if (rand === 2) {
-        console.log(`Question: ${num} * ${num2}`);
-        num3 = num * num2;
-      }
-    };
+    // const quest = () => {
+    if (rand === 0) {
+      console.log(`Question: ${num} + ${num2}`);
+      num3 = num + num2;
+    } else if (rand === 1) {
+      console.log(`Question: ${num} - ${num2}`);
+      num3 = num - num2;
+    } else if (rand === 2) {
+      console.log(`Question: ${num} * ${num2}`);
+      num3 = num * num2;
+    }
+    // };
 
-    quest();
+    // quest();
 
     const answer = readlineSync.question('Your answer: ');
 

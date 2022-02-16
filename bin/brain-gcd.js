@@ -27,12 +27,12 @@ const getRandomFloat = () => {
     // const arr = [num + num2, num - num2, num * num2];
     // const rand = Math.floor(Math.random() * arr.length);
 
-    const quest = () => {
-      console.log(`Question: ${num} ${num2}`);
-      num3 = nod(num, num2);
-    };
+    // const quest = () => {
+    console.log(`Question: ${num} ${num2}`);
+    num3 = nod(num, num2);
+    // };
 
-    quest();
+    // quest();
 
     const answer = readlineSync.question('Your answer: ');
 
