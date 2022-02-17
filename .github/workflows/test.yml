@@ -1,10 +1,25 @@
-name: linter
-on: push
+name: Node CI
+
+on:
+  - push
+
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [17.x]
+
     steps:
-      - name: install
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: true
+      - name: Install, lint
         run: make install
-      - name: my-step
+      - name: Run linter
         run: make lint
+
