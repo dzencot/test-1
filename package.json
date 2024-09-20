@@ -4,7 +4,8 @@
   "description": "[![Actions Status](https://github.com/Nikolas888/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Nikolas888/frontend-project-lvl1/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test-coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -29,8 +30,10 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.1",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "vitest": "^2.1.1"
   }
 }
