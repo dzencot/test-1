@@ -45,4 +45,4 @@ jobs:
         with:
           coverageCommand: make test-coverage
           debug: true
-          ${{github.workspace}}/coverage
+          coverageLocations: ${{github.workspace}}/coverage
